@@ -24,30 +24,33 @@ h1 {
     font-family: "Boldonse", system-ui;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.37);
 }
 
 header > p {
     font-size: 1.2em;
     margin-top: 20px;
     font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
+    font-optical-sizing: auto;
+    font-style: bold;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.676);
 }
 
 nav {
     background-color: rgba(0, 0, 0, 0.441);
-    padding: 0px 5px 7px;
+    padding: 0px 5px 9px;
 }
 
 nav > a {
     color: white;
     text-decoration: none;
     font-style: normal;
+    font-weight: bold;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    margin: 7px;
-    padding: 2px;
+    padding: 8px;
+    transition-duration: 0.4s;
 }
 
 nav > a:hover {
